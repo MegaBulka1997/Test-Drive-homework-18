@@ -1,0 +1,75 @@
+.block-Chinese-terminator{
+
+    color: black;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-style: groove;
+    border-color: rgb(102, 255, 0);
+    border-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    width: 360px;
+}
+.email,
+.password{
+    width: 175px;
+    height: 18px;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 5px;
+}
+.email{
+    position: absolute;
+    left: 1075px;
+    top: 10px;
+}
+.password{
+    position: absolute;
+    left: 1075px;
+    top: 40px;
+}
+.button-login{
+    position: absolute;
+    left: 1208px;
+    top: 70px;
+}
+.block-Обо-мне{
+    position: absolute;
+    left: 1105px;
+    top: 140px;
+}
+.block-Simonov-Oleg{
+    position: absolute;
+    left: 1107px;
+    top: 305px;
+    font-size: 20px;
+}
+.img-chen{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    left: 1110px;
+    top: 200px;
+}
+.button-login{
+    background-color: #04aa25; /* Green */
+    border: none;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: rgb(0, 38, 255);}
+  }
+body{
+    background-image: url(https://img.freepik.com/free-photo/blue-and-orange-cupboards_23-2148518393.jpg?w=1060&t=st=1711532478~exp=1711533078~hmac=487e90a928127c83807efa4ab5214f53e0cbedb46eae408bfff097c321f5321b);
+}
